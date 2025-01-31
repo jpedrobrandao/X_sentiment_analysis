@@ -2,14 +2,14 @@
 import tweepy
 
 # Insira suas chaves de API do Twitter
-API_KEY = "WDqRFvx9cisYrkOy1x8m53j6r"
-API_SECRET_KEY = "7Zi3ubEYNsO96Ip4uA7KQ0thrir2talIhnvCwb0YIhI3JoqTrd"
-ACCESS_TOKEN = "1559589293093429248-B068mywfh6YcLjtYuAh0mDCrWrNYlk"
-ACCESS_TOKEN_SECRET = "etzcCvzeshjfAfjf02N3xlIvCd4jYuWNxskqJkbsnvvNI"
+API_KEY = "API KEY HERE"
+API_SECRET_KEY = "API SECRET KEY HERE"
+ACCESS_TOKEN = "TOKEN ACESS HERE"
+ACCESS_TOKEN_SECRET = "TOKEN SECRET ACESS HERE"
 
 # Autenticação
 client = tweepy.Client(
-    bearer_token="AAAAAAAAAAAAAAAAAAAAAF1pygEAAAAA1c9YOc7ABzSEqvTqi%2Fkno21fefw%3Da31avfYut0vkMAUImJoMSQb4t6ovZ7uzc9WvkbYkqqHCxdlqYD",  # Substitua pelo seu Bearer Token
+    bearer_token="TOKEN BEARER HERE",  # Substitua pelo seu Bearer Token
     consumer_key=API_KEY,
     consumer_secret=API_SECRET_KEY,
     access_token=ACCESS_TOKEN,
